@@ -4,8 +4,10 @@ on:
     inputs:
       logLevel:
         description: 'Log level'     
-        required: false
+        required: true
         default: 'warning'
+      tags:
+        description: 'Test scenario tags'
 
 defaults:
   run:
